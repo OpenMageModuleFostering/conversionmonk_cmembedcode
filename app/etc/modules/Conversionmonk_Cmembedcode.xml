@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Conversionmonk_Cmembedcode>
+      <active>true</active>
+      <codePool>community</codePool>
+      <version>1.0.0</version>
+    </Conversionmonk_Cmembedcode>
+  </modules>
+</config>

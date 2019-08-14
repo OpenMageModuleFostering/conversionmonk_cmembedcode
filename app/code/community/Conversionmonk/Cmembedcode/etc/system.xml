@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+	  <tabs>
+		<cnsettings translate="label" module="cmembedcode">
+            <label>Conversionmonk</label>
+            <sort_order>999</sort_order>
+        </cnsettings>
+	  </tabs>
+	  <sections>
+		<csettings  translate="label" module="cmembedcode">                    
+		<label>ConversionMonk</label>
+		<tab>cnsettings</tab>
+		<frontend_type>text</frontend_type>
+		<sort_order>999</sort_order>
+		<show_in_default>1</show_in_default>
+		<show_in_website>1</show_in_website>
+		<show_in_store>1</show_in_store>            
+					<groups>
+				      <gcsettings translate="label"> 
+					  <label>ConversionMonk Settings</label>
+					  <frontend_type>text</frontend_type>
+					  <sort_order>0</sort_order>
+					  <show_in_default>1</show_in_default>
+					  <show_in_website>1</show_in_website>
+					  <show_in_store>1</show_in_store>
+				       <fields>
+                          <cmanalyticscode translate="label">
+                            <label>Embed Code</label>
+							<frontend_type>textarea</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment><![CDATA[You can find your embed code, inside your ConversionMonk account under Embed Code Menu. <br/>Don't have account? Sign up <a href='http://conversionmonk.com/signup?source=magento_extension' target='_blank'>here</a>]]></comment>
+                          </cmanalyticscode>
+					   </fields>
+					   </gcsettings>
+					</groups>
+		</csettings>
+	  </sections>
+</config>

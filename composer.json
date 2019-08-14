@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Conversionmonk_Cmembedcode",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "This extension for Magento allows you to easily integrate ConversionMonk with Magento. ",
+    "authors": [
+    {
+        "name": "Piplayan",
+        "email": "piplayan@conversionmonk.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

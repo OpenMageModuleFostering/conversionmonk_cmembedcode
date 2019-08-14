@@ -1,0 +1,14 @@
+<?xml version="1.0"?>   
+<layout version="1.0.0">   
+ 
+  <default>
+  <block type="core/template" name="cmembedcode_index" after="-" template="cmembedcode/index.phtml"/>   
+    <reference name="head" >
+			 <action method="append">
+			  <block>cmembedcode_index</block>
+		     </action>
+			 
+    </reference>
+</default>  
+</layout>   
+	
