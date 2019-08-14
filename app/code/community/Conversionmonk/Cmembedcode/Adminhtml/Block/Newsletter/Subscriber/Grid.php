@@ -54,23 +54,12 @@ class Conversionmonk_Cmembedcode_Adminhtml_Block_Newsletter_Subscriber_Grid exte
 
 	protected function _prepareColumns()
 	{
+
 		parent::_prepareColumns();
 		
-        $this->mrRemoveColumn('firstname');
-        $this->mrRemoveColumn('lastname');
-		
-		
-		$this->addColumnAfter('firstname', array(
-			'header'    => Mage::helper('newsletter')->__('First Name'),
-            'index'     => 'customer_firstname',
-			'renderer'	=> 'Conversionmonk_Cmembedcode_Adminhtml_Block_Newsletter_Subscriber_Grid_Renderer_Firstname'
-		), Mage::getStoreConfig('newsletterextended/fields/show_prefix') ? 'prefix' : (Mage::getStoreConfig('newsletterextended/fields/show_gender') ? 'gender' : 'type'));
-		
-		$this->addColumnAfter('lastname', array(
-			'header'    => Mage::helper('newsletter')->__('Last Name'),
-            'index'     => 'customer_lastname',
-			'renderer'	=> 'Conversionmonk_Cmembedcode_Adminhtml_Block_Newsletter_Subscriber_Grid_Renderer_Lastname'
-		), 'firstname');
+		$configValueEnabled = Mage::getStoreConfig('csettings/gcsettings/showcolumn');		
+		if($configValueEnabled)
+		{      
 		
 		$this->addColumnAfter('cmonk_subscriber_source', array(
 			'header'    => Mage::helper('newsletter')->__('Source'),
@@ -80,22 +69,11 @@ class Conversionmonk_Cmembedcode_Adminhtml_Block_Newsletter_Subscriber_Grid exte
 
 		// manually sort again, that our custom order works
 		$this->sortColumnsByOrder();
+		}
 		
         return $this;
     }
 
-    public function mrRemoveColumn($columnId)
-    {
-        if (method_exists($this, "removeColumn")) {
-            return $this->removeColumn($columnId);
-        }
-        else if (isset($this->_columns[$columnId])) {
-            unset($this->_columns[$columnId]);
-            if ($this->_lastColumnId == $columnId) {
-                $this->_lastColumnId = key($this->_columns);
-            }
-        }
-        return $this;
-    }
+   
 
 }

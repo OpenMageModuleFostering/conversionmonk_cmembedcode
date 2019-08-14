@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <package>
     <name>Conversionmonk_Cmembedcode</name>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <stability>stable</stability>
     <license>Open Software License (OSL)</license>
     <channel>community</channel>
     <extends/>
-    <summary>This extension for Magento allows you to easily integrate ConversionMonk with Magento. </summary>
+    <summary>This extension for Magento allows you to easily integrate ConversionMonk with Magento.</summary>
     <description>ConversionMonk extension for Magento allows you to easily integrate ConversionMonk with Magento. The extension works with both Magento Enterprise Edition and Magento Community Edition.&#xD;
 &#xD;
 ConversionMonk is an automated conversion optimization and web personalization platform. Our web-based SaaS software tracks website visitors' behavior and then displays targeted content, messages and offers in real time.</description>
-    <notes>First Preview Release</notes>
+    <notes>Second Release</notes>
     <authors><author><name>Piplayan</name><user>piplayan</user><email>piplayan@conversionmonk.com</email></author></authors>
-    <date>2015-11-24</date>
-    <time>06:12:31</time>
-    <contents><target name="magecommunity"><dir name="Conversionmonk"><dir name="Cmembedcode"><dir name="Adminhtml"><dir name="Block"><dir name="Newsletter"><dir name="Subscriber"><dir name="Grid"><dir name="Renderer"><file name="Firstname.php" hash="b4ad83a7a22963ab905b3e4f17870e48"/><file name="Lastname.php" hash="86225f344469264dd0dfbe3fe5bb66d4"/></dir></dir><file name="Grid.php" hash="211dfbf38c5dd5e578b3f8b9a2d554c4"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="b01c803a7f2a19e05cd81ef2967abd24"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Subscriber"><file name="Collection.php" hash="667a7c7106afbf9b1502e3585d12ddec"/></dir></dir><file name="Observer.php" hash="b763797a715476e834b58a6cd806c87f"/><dir name="Resource"><dir name="Mysql4"><file name="Setup.php" hash="6632d5d5376b25d0374aaa90c8175383"/></dir></dir><file name="Subscriber.php" hash="4553a916f4a102e87ebc77bdae978c09"/></dir><dir name="controllers"><dir name="Newsletter"><file name="SubscriberController.php" hash="3c049a7166adb2dd22b10bef4b9a8c85"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="cc9ae9cb60d382a0d99c5c545670d366"/><file name="config.xml" hash="f149882fb237b44526ce64537f9bbd83"/><file name="system.xml" hash="68232ab3a4c1e860963efad39921ad74"/></dir><dir name="sql"><dir name="conversionmonk_cmembedcode_setup"><file name="mysql4-install-1.0.0.php" hash="efee1132c56800bd1d67809d3081fcf6"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="cmembedcode.xml" hash="5c0ec2245cace3245a8c28cfcf04c954"/></dir><dir name="template"><dir name="cmembedcode"><file name="index.phtml" hash="1f529d1f53dcafeb02fd06b5224a0bdf"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Conversionmonk_Cmembedcode.xml" hash="0f8d77cf82d0f36093637afc79522738"/></dir></target></contents>
+    <date>2016-03-08</date>
+    <time>18:59:13</time>
+    <contents><target name="magecommunity"><dir name="Conversionmonk"><dir name="Cmembedcode"><dir name="Adminhtml"><dir name="Block"><dir name="Newsletter"><dir name="Subscriber"><file name="Grid.php" hash="03fc6ef43c6a73551ec5e2c71f86902d"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="b01c803a7f2a19e05cd81ef2967abd24"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Subscriber"><file name="Collection.php" hash="667a7c7106afbf9b1502e3585d12ddec"/></dir></dir><file name="Observer.php" hash="98411af5849d13aea54a51f1cf72b1cc"/><dir name="Resource"><dir name="Mysql4"><file name="Setup.php" hash="6632d5d5376b25d0374aaa90c8175383"/></dir></dir><file name="Subscriber.php" hash="9c4a01abb0cf13a96bd70d5fb40ee072"/></dir><dir name="controllers"><dir name="Newsletter"><file name="SubscriberController.php" hash="3c049a7166adb2dd22b10bef4b9a8c85"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="cc9ae9cb60d382a0d99c5c545670d366"/><file name="config.xml" hash="0096023cd582dbda0ae3a477c855255c"/><file name="system.xml" hash="68232ab3a4c1e860963efad39921ad74"/></dir><dir name="sql"><dir name="conversionmonk_cmembedcode_setup"><file name="mysql4-install-1.0.0.php" hash="6018bd449c44a93fb1239b093db3356f"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="cmembedcode.xml" hash="5c0ec2245cace3245a8c28cfcf04c954"/></dir><dir name="template"><dir name="cmembedcode"><file name="index.phtml" hash="8d8a446cbfdfbc48c624803408435682"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Conversionmonk_Cmembedcode.xml" hash="61356e7479bc143333c582caa640e69b"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
