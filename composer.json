@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Conversionmonk_Cmembedcode",
+    "name": "openmage-module-fostering\/conversionmonk_cmembedcode",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension for Magento allows you to easily integrate ConversionMonk with Magento.",
     "authors": [
